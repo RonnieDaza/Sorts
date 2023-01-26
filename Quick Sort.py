@@ -24,3 +24,8 @@ def quickSort(array, low, high):
     quickSort(array, low, pi - 1)
 
     quickSort(array, pi + 1, high)
+
+
+data = [37, 88, 63, 39, 68, 1, 85, 49, 33, 21]
+print("The unsorted array is: ")
+print(data)
