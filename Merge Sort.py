@@ -40,3 +40,8 @@ if __name__ == '__main__':
     array = [37, 88, 63, 39, 68, 1, 85, 49, 33, 21]
     print("The unsorted array is: ")
     print(array)
+
+    mergeSort(array)
+
+    print("The sorted array in ascending order is: ")
+    print(array)
