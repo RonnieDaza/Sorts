@@ -9,3 +9,8 @@ def bubbleSort(array):
         temp = array[j]
         array[j] = array[j+1]
         array[j+1] = temp
+
+
+array = [37, 88, 63, 39, 68, 1, 85, 49, 33, 21]
+print('The unsorted array is: ')
+print(array)
