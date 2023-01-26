@@ -14,3 +14,8 @@ def bubbleSort(array):
 array = [37, 88, 63, 39, 68, 1, 85, 49, 33, 21]
 print('The unsorted array is: ')
 print(array)
+
+bubbleSort(array)
+
+print('The sorted array in ascending order is: ')
+print(array)
