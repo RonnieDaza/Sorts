@@ -29,3 +29,10 @@ def quickSort(array, low, high):
 data = [37, 88, 63, 39, 68, 1, 85, 49, 33, 21]
 print("The unsorted array is: ")
 print(data)
+
+size = len(data)
+
+quickSort(data, 0, size - 1)
+
+print('The sorted array in ascending order is:')
+print(data)
