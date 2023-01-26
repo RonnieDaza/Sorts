@@ -15,3 +15,12 @@ def partition(array, low, high):
   (array[i + 1], array[high]) = (array[high], array[i + 1])
 
   return i + 1
+
+def quickSort(array, low, high):
+  if low < high:
+
+    pi = partition(array, low, high)
+
+    quickSort(array, low, pi - 1)
+
+    quickSort(array, pi + 1, high)
