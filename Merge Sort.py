@@ -34,3 +34,9 @@ def printList(array):
     for i in range(len(array)):
         print(array[i], end=" ")
     print()
+
+
+if __name__ == '__main__':
+    array = [37, 88, 63, 39, 68, 1, 85, 49, 33, 21]
+    print("The unsorted array is: ")
+    print(array)
