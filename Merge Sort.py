@@ -28,3 +28,9 @@ def mergeSort(array):
             array[k] = M[j]
             j += 1
             k += 1
+
+
+def printList(array):
+    for i in range(len(array)):
+        print(array[i], end=" ")
+    print()
